@@ -9,3 +9,16 @@
     font-size: 1.5em;
     font-weight: bold;
 }
+
+.search-results-title
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.search-results-author
+{
+    font-size: 1.2 em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
