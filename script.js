@@ -6,16 +6,17 @@
 
 
 var fetch = function () {
+    var url="https://www.googleapis.com/books/v1/volumes?q=isbn:"+$("#isbn-number-field").val();
     $.ajax({
       method: "GET",
-      url: 'https://www.googleapis.com/books/v1/volumes?q=isbn:0439023521',
+      url: url,
       success: function(data) {
         debugger;
-        console.log(data);
-        console.log(data.items["0"].volumeInfo.title);
-        console.log(data.items["0"].volumeInfo.authors);
-        console.log(data.items["0"].volumeInfo.description);
-        console.log(data.items["0"].volumeInfo.imageLinks.thumbnail);
+        // console.log(data);
+        // console.log(data.items["0"].volumeInfo.title);
+        // console.log(data.items["0"].volumeInfo.authors);
+        // console.log(data.items["0"].volumeInfo.description);
+        // console.log(data.items["0"].volumeInfo.imageLinks.thumbnail);
         showBookInfo(data);
       },
       error: function(jqXHR, textStatus, errorThrown) {
