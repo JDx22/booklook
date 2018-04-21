@@ -3,23 +3,13 @@
     font-size: 3em;
     font-weight: bold;
 }
-
+.top-row
+{
+    margin-top: calc( ( 100vh - 15em)  / 2) ;
+}
 .search-header
 {
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.search-results-title
-{
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.search-results-author
-{
-    padding-top: 0.5em;
-    font-size: 1.2 em;
-    font-weight: bold;
-    padding-bottom: 0.5em;
-}
