@@ -1,7 +1,7 @@
 .top-row
 {
     border-bottom-color: black;
-    border-width: 1px;
+    border-width: 10px;
 }
 
 
@@ -22,7 +22,7 @@
 .search-results-author
 {
     padding-top: 0.5em;
-    font-size: 1.2 em;
+    font-size: 1.2em;
     font-weight: bold;
     padding-bottom: 0.5em;
 }
